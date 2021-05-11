@@ -1,9 +1,9 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Kling",
+  "text": "A free App to track the status and progress of Corona rapid tests. Never worried about foregtting to check any test result. Together, let's end the pandemic! ",
   "button": [
     {
-      "title": "Explore"
+      "title": "Download App"
     },
     {
       "title": "Learn More",
