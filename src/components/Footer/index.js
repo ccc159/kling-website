@@ -35,44 +35,19 @@ const Footer = ({ t }) => {
                 </S.Para>
               </Col>
               <Col lg={8} md={8} sm={12} xs={24}>
-                <S.Title>{t('Policy')}</S.Title>
-                <S.Large to='/' left='true'>
-                  {t('Application Security')}
-                </S.Large>
-                <S.Large left='true' to='/'>
-                  {t('Software Principles')}
-                </S.Large>
-              </Col>
-              <Col lg={6} md={6} sm={12} xs={24}>
-                <S.Empty />
-                <S.Large left='true' to='/'>
-                  {t('Support Center')}
-                </S.Large>
-                <S.Large left='true' to='/'>
-                  {t('Customer Support')}
-                </S.Large>
+                <S.Title>About</S.Title>
+
+                <a href={'/privatepolicy'}>Private Policy</a>
+                <span> | </span>
+                <a href={'https://github.com/ccc159/kling'}>Github</a>
+                <span> | </span>
+                <a href={'/'}>
+                  <SvgIcon src='logo.svg' aria-label='homepage' width='50px' height='50px' />
+                </a>
               </Col>
             </Row>
           </Container>
         </S.Footer>
-        <S.Extra>
-          <Container border='true'>
-            <Row type='flex' justify='space-between' align='middle' style={{ paddingTop: '3rem' }}>
-              <S.NavLink to='/'>
-                <S.LogoContainer>
-                  <SvgIcon src='logo.svg' aria-label='homepage' width='101px' height='64px' />
-                </S.LogoContainer>
-              </S.NavLink>
-              <S.FooterContainer>
-                <SocialLink href='https://github.com/Adrinlol/create-react-app-adrinlol' src='github.svg' />
-                <SocialLink href='https://twitter.com/Adrinlolx' src='twitter.svg' />
-                <SocialLink href='https://www.linkedin.com/in/lasha-kakabadze/' src='linkedin.svg' />
-                <SocialLink href='https://github.com/Adrinlol/' src='instagram.svg' />
-                <SocialLink href='https://medium.com/@lashakakabadze/' src='medium.svg' />
-              </S.FooterContainer>
-            </Row>
-          </Container>
-        </S.Extra>
       </Fade>
     </Fragment>
   );

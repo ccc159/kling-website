@@ -6,6 +6,7 @@ import UXFriendlyContent from '../../content/UXFriendlyContent.json';
 import NotificationContent from '../../content/NotificationContent.json';
 import StatisticsContent from '../../content/StatisticsContent.json';
 import ConclusionContent from '../../content/ConclusionContent.json';
+import DownloadContent from '../../content/DownloadContent.json';
 
 const ContentBlock = lazy(() => import('../../components/ContentBlock'));
 const MiddleBlock = lazy(() => import('../../components/MiddleBlock'));
@@ -42,6 +43,14 @@ const Home = () => {
         section={NotificationContent.section}
         icon='Conclusion-launch.svg'
         id='notification'
+      />
+      <ContentBlock
+        type='right'
+        title={DownloadContent.title}
+        content={DownloadContent.text}
+        svg={DownloadContent.svg}
+        icon='graphs.svg'
+        id='download'
       />
 
       <MiddleBlock type='left' title={ConclusionContent.title} content={ConclusionContent.text} icon='waving.svg' id='conclusion' />

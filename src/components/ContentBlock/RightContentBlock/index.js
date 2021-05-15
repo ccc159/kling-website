@@ -1,22 +1,22 @@
-import { Row, Col } from "antd";
-import { withTranslation } from "react-i18next";
-import Slide from "react-reveal/Slide";
+import { Row, Col } from 'antd';
+import { withTranslation } from 'react-i18next';
+import Slide from 'react-reveal/Slide';
 
-import SvgIcon from "../../../common/SvgIcon";
-import Button from "../../../common/Button";
+import SvgIcon from '../../../common/SvgIcon';
+import Button from '../../../common/Button';
 
-import * as S from "./styles";
+import * as S from './styles';
 
-const RightBlock = ({ title, content, button, icon, t, id }) => {
+const RightBlock = ({ title, content, button, icon, t, id, svg }) => {
   const scrollTo = (id) => {
     const element = document.getElementById(id);
     element.scrollIntoView({
-      behavior: "smooth",
+      behavior: 'smooth',
     });
   };
   return (
     <S.RightBlockContainer>
-      <Row type="flex" justify="space-between" align="middle" id={id}>
+      <Row type='flex' justify='space-between' align='middle' id={id}>
         <Col lg={11} md={11} sm={11} xs={24}>
           <Slide left>
             <S.ContentWrapper>
@@ -24,31 +24,30 @@ const RightBlock = ({ title, content, button, icon, t, id }) => {
               <S.Content>{t(content)}</S.Content>
               <S.ButtonWrapper>
                 {button &&
-                  typeof button === "object" &&
+                  typeof button === 'object' &&
                   button.map((item, id) => {
                     return (
-                      <Button
-                        key={id}
-                        color={item.color}
-                        width="true"
-                        onClick={() => scrollTo("about")}
-                      >
+                      <Button key={id} color={item.color} width='true' onClick={() => scrollTo('intro')}>
                         {t(item.title)}
                       </Button>
                     );
                   })}
+              </S.ButtonWrapper>
+              <S.ButtonWrapper>
+                {svg &&
+                  typeof svg === 'object' &&
+                  svg.map((item, id) => (
+                    <a href={item.link}>
+                      <SvgIcon src={item.url} className='about-block-image' width='100%' height='100%' />
+                    </a>
+                  ))}
               </S.ButtonWrapper>
             </S.ContentWrapper>
           </Slide>
         </Col>
         <Col lg={11} md={11} sm={12} xs={24}>
           <Slide right>
-            <SvgIcon
-              src={icon}
-              className="about-block-image"
-              width="100%"
-              height="100%"
-            />
+            <SvgIcon src={icon} className='about-block-image' width='100%' height='100%' />
           </Slide>
         </Col>
       </Row>

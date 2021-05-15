@@ -30,14 +30,20 @@ const Header = ({ t }) => {
     };
     return (
       <Fragment>
-        <S.CustomNavLinkSmall onClick={() => scrollTo('about')}>
-          <S.Span>{t('About')}</S.Span>
+        <S.CustomNavLinkSmall onClick={() => scrollTo('intro')}>
+          <S.Span>Intro</S.Span>
+        </S.CustomNavLinkSmall>
+        <S.CustomNavLinkSmall onClick={() => scrollTo('ux')}>
+          <S.Span>UX</S.Span>
+        </S.CustomNavLinkSmall>
+        <S.CustomNavLinkSmall onClick={() => scrollTo('statistics')}>
+          <S.Span>Statistics</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall onClick={() => scrollTo('notification')}>
-          <S.Span>{t('notification')}</S.Span>
+          <S.Span>Notification</S.Span>
         </S.CustomNavLinkSmall>
-        <S.CustomNavLinkSmall onClick={() => scrollTo('product')}>
-          <S.Span>{t('Product')}</S.Span>
+        <S.CustomNavLinkSmall onClick={() => scrollTo('download')}>
+          <S.Span>Download</S.Span>
         </S.CustomNavLinkSmall>
       </Fragment>
     );
