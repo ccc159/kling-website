@@ -36,14 +36,9 @@ const Footer = ({ t }) => {
               </Col>
               <Col lg={8} md={8} sm={12} xs={24}>
                 <S.Title>About</S.Title>
-
-                <a href={'/privatepolicy'}>Private Policy</a>
+                <a href={'/privacypolicy'}>Privacy Policy</a>
                 <span> | </span>
                 <a href={'https://github.com/ccc159/kling'}>Github</a>
-                <span> | </span>
-                <a href={'/'}>
-                  <SvgIcon src='logo.svg' aria-label='homepage' width='50px' height='50px' />
-                </a>
               </Col>
             </Row>
           </Container>

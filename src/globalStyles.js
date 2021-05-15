@@ -50,6 +50,15 @@ const Styles = createGlobalStyle`
         font-weight: 600;
     }
 
+    h2 {
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
     a {
         text-decoration: none;
         outline: none;
