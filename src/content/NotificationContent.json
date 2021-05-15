@@ -1,0 +1,16 @@
+{
+  "title": "Notification System",
+  "text": "The notification system is essential for testers when they are busy. This app provides real time notifications so no test will be ever missed!",
+  "section": [
+    {
+      "title": "Push notification",
+      "content": "Don't worry, even your phone is locked, you still get a notification of every test.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Sound matters",
+      "content": "Different sounds are chimed for a ready, expired, negative or positive test.",
+      "icon": "notes.svg"
+    }
+  ]
+}

@@ -1,64 +1,50 @@
-import { lazy } from "react";
+import { lazy } from 'react';
 
-import IntroContent from "../../content/IntroContent.json";
-import MiddleBlockContent from "../../content/MiddleBlockContent.json";
-import AboutContent from "../../content/AboutContent.json";
-import MissionContent from "../../content/MissionContent.json";
-import ProductContent from "../../content/ProductContent.json";
-import ContactContent from "../../content/ContactContent.json";
+import IntroContent from '../../content/IntroContent.json';
+import MiddleBlockContent from '../../content/MiddleBlockContent.json';
+import UXFriendlyContent from '../../content/UXFriendlyContent.json';
+import NotificationContent from '../../content/NotificationContent.json';
+import StatisticsContent from '../../content/StatisticsContent.json';
+import ConclusionContent from '../../content/ConclusionContent.json';
 
-const ContactFrom = lazy(() => import("../../components/ContactForm"));
-const ContentBlock = lazy(() => import("../../components/ContentBlock"));
-const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
-const Container = lazy(() => import("../../common/Container"));
-const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
+const ContentBlock = lazy(() => import('../../components/ContentBlock'));
+const MiddleBlock = lazy(() => import('../../components/MiddleBlock'));
+const Container = lazy(() => import('../../common/Container'));
+const ScrollToTop = lazy(() => import('../../common/ScrollToTop'));
 
 const Home = () => {
   return (
     <Container>
       <ScrollToTop />
       <ContentBlock
-        type="right"
-        first="true"
+        type='right'
+        first='true'
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="developer.svg"
-        id="intro"
+        icon='developer.svg'
+        id='intro'
       />
-      <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
-      />
+      <MiddleBlock title={MiddleBlockContent.title} content={MiddleBlockContent.text} button={MiddleBlockContent.button} />
       <ContentBlock
-        type="left"
-        title={AboutContent.title}
-        content={AboutContent.text}
-        section={AboutContent.section}
-        icon="graphs.svg"
-        id="about"
+        type='left'
+        title={UXFriendlyContent.title}
+        content={UXFriendlyContent.text}
+        section={UXFriendlyContent.section}
+        icon='graphs.svg'
+        id='ux'
       />
+      <ContentBlock type='right' title={StatisticsContent.title} content={StatisticsContent.text} icon='graphs.svg' id='statistics' />
       <ContentBlock
-        type="right"
-        title={MissionContent.title}
-        content={MissionContent.text}
-        icon="product-launch.svg"
-        id="mission"
+        type='left'
+        title={NotificationContent.title}
+        content={NotificationContent.text}
+        section={NotificationContent.section}
+        icon='Conclusion-launch.svg'
+        id='notification'
       />
 
-      <ContentBlock
-        type="left"
-        title={ProductContent.title}
-        content={ProductContent.text}
-        icon="waving.svg"
-        id="product"
-      />
-      <ContactFrom
-        title={ContactContent.title}
-        content={ContactContent.text}
-        id="contact"
-      />
+      <MiddleBlock type='left' title={ConclusionContent.title} content={ConclusionContent.text} icon='waving.svg' id='conclusion' />
     </Container>
   );
 };

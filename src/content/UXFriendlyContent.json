@@ -1,0 +1,16 @@
+{
+  "title": "User Experience Design",
+  "text": "An extremely user-friendly App. With dedicated UX design, you can master the App without learning and start right away tofree yourself from the hassle of massive manuel tests.",
+  "section": [
+    {
+      "title": "UX Design",
+      "content": "The UX design to considered for managing multiple tests at a time with large buttons.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Color code",
+      "content": "Colors are well designed to have different meaning to help user react faster.",
+      "icon": "notes.svg"
+    }
+  ]
+}
