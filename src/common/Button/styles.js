@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const Button = styled.button`
-  background: ${(props) => props.color || '#246b68'};
-  color: ${(props) => (props.color ? '#246b68' : '#fff')};
+  background: ${(props) => props.color || '#3e84ba'};
+  color: ${(props) => (props.color ? '#3e84ba' : '#fff')};
   font-size: 1rem;
   font-weight: 700;
   width: 100%;
-  border: ${(props) => (props.color ? '1px solid #246b68' : '0px')};
+  border: ${(props) => (props.color ? '1px solid #3e84ba' : '0px')};
   border-radius: 8px;
   height: 60px;
   outline: none;

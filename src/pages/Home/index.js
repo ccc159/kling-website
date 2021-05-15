@@ -22,7 +22,7 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon='cover.png'
+        icon='full_cover.png'
         id='intro'
       />
       <MiddleBlock title={MiddleBlockContent.title} content={MiddleBlockContent.text} button={MiddleBlockContent.button} />
@@ -40,7 +40,7 @@ const Home = () => {
         title={NotificationContent.title}
         content={NotificationContent.text}
         section={NotificationContent.section}
-        icon='notification.png'
+        icon='waving.svg'
         id='notification'
       />
       <ContentBlock
@@ -48,7 +48,7 @@ const Home = () => {
         title={DownloadContent.title}
         content={DownloadContent.text}
         svg={DownloadContent.svg}
-        icon='graphs.svg'
+        icon='product-launch.svg'
         id='download'
       />
 
@@ -78,7 +78,6 @@ const Home = () => {
             </span>
           </div>
         }
-        icon='waving.svg'
         id='conclusion'
       />
     </Container>
