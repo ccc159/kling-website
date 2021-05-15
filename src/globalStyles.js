@@ -5,7 +5,7 @@ const Styles = createGlobalStyle`
     body,
     html,
     a {
-        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Inconsolata', monospace;
     }
 
 
@@ -14,7 +14,7 @@ const Styles = createGlobalStyle`
         padding:0;
         border: 0;
         outline: 0;
-        background: #fff;
+        background: #202B37;
         overflow-x: hidden;
     }
 
@@ -28,10 +28,11 @@ const Styles = createGlobalStyle`
     h4,
     h5,
     h6 {
-        font-family: 'Ubuntu', sans-serif;
-        color: #0a1f44;
+        font-family: 'Inconsolata', monospace;
+        color: #e5eeff;
         font-size: 2.575rem;
         line-height: 3.0625rem;
+        font-weight: 600;
       
         @media only screen and (max-width: 414px) {
           font-size: 1.625rem;
@@ -39,8 +40,10 @@ const Styles = createGlobalStyle`
     }
 
     p {
-        color: #343D48;
+        color: #acb6c3;
         font-size: 1.125rem;
+        letter-spacing: 1px;
+        font-weight: 500;
     }
 
     h1 {
