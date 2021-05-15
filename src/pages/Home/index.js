@@ -22,7 +22,7 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon='developer.svg'
+        icon='cover.png'
         id='intro'
       />
       <MiddleBlock title={MiddleBlockContent.title} content={MiddleBlockContent.text} button={MiddleBlockContent.button} />
@@ -31,16 +31,16 @@ const Home = () => {
         title={UXFriendlyContent.title}
         content={UXFriendlyContent.text}
         section={UXFriendlyContent.section}
-        icon='graphs.svg'
+        icon='ux.png'
         id='ux'
       />
-      <ContentBlock type='right' title={StatisticsContent.title} content={StatisticsContent.text} icon='graphs.svg' id='statistics' />
+      <ContentBlock type='right' title={StatisticsContent.title} content={StatisticsContent.text} icon='statistics.png' id='statistics' />
       <ContentBlock
         type='left'
         title={NotificationContent.title}
         content={NotificationContent.text}
         section={NotificationContent.section}
-        icon='Conclusion-launch.svg'
+        icon='notification.png'
         id='notification'
       />
       <ContentBlock
