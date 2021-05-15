@@ -61,15 +61,15 @@ const Home = () => {
             suggestions, don't hesitant to reach out to us! <hr style={{ opacity: 0.1, margin: '20px' }} />
             <span style={{ fontSize: '14px', letterSpacing: 'initial', opacity: 0.7 }}>
               In the end, a little bit about me: I am{' '}
-              <a href='https://chen.works' target='_blank'>
+              <a href='https://chen.works' target='_blank' rel='noreferrer'>
                 Jingcheng Chen
               </a>{' '}
               who works as a software developer at{' '}
-              <a href='http://www.designtoproduction.com/en' target='_blank'>
+              <a href='http://www.designtoproduction.com/en' target='_blank' rel='noreferrer'>
                 Design-to_production
               </a>
               . This app is inspired by{' '}
-              <a href='https://de.linkedin.com/in/johanneskuhnen' target='_blank'>
+              <a href='https://de.linkedin.com/in/johanneskuhnen' target='_blank' rel='noreferrer'>
                 Johannes Kuhnen
               </a>
               , whose fiancée, a virologist, saw a demand in the field of tracking multiple tests simultaneously. Therefore I spent some days to come
