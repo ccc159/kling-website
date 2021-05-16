@@ -73,8 +73,12 @@ const Home = () => {
                 Johannes Kuhnen
               </a>
               , whose fiancée, a virologist, saw a demand in the field of tracking multiple tests simultaneously. Therefore I spent some days to come
-              up with this app, in the hope of helping anyone that is in the front line fighting against Covid19. It is totally free and open source.
-              It does not access or track any of your personal data. If you find it useful, please spread it out! Keep safe! ❤️
+              up with this app, with the graphic design support from my wife{' '}
+              <a href='https://www.linkedin.com/in/jun-li-profile/' target='_blank' rel='noreferrer'>
+                Jun Li
+              </a>
+              , in the hope of helping anyone that is in the front line fighting against COVID-19. It is totally free and open source. It does not
+              access or track any of your personal data. If you find it useful, please spread it out! Stay safe! ❤️
             </span>
           </div>
         }
