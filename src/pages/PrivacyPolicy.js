@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
           our app we never called any of those APIs. Kling logs no information on you and has no interest in doing such.
           <br />
           <br />
-          <b>Kling does not collect, store, transmit, distribute or sell your data.</b>
+          <b>Kling does not collect, transmit, distribute or sell your data.</b>
         </p>
       </figure>
     </Container>
