@@ -66,7 +66,7 @@ const Home = () => {
               </a>{' '}
               who works as a software developer at{' '}
               <a href='http://www.designtoproduction.com/en' target='_blank' rel='noreferrer'>
-                Design-to_production
+                Design-to-Production
               </a>
               . This app is inspired by{' '}
               <a href='https://de.linkedin.com/in/johanneskuhnen' target='_blank' rel='noreferrer'>
