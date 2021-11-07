@@ -1,14 +1,10 @@
 {
   "title": "Download",
-  "text": "The kling app is programmed to work natively both on Android and iOS devices. Download it now for free and start testing!",
+  "text": "The kling app is programmed to work natively both on Android and iOS devices. Unfortuantely due to regulations, individual developer is not allowed to use 'corona', 'covid' related wording in the app. Therefore it is impossible to release this app through 'App Store' for ios device or 'Google Play Store' for anroid device. So far it is only possible to download the .apk source file for android user.",
   "svg": [
     {
-      "url": "app_apple.svg",
-      "link": "/"
-    },
-    {
-      "url": "app_google.svg",
-      "link": "https://expo.io/artifacts/ebcbef97-a923-4fdf-969a-9a3b8140aafa"
+      "url": "download-apk.svg",
+      "link": "https://github.com/ccc159/kling/releases/download/releases%2F1.0.4/kling-v1.0.4-signed.apk"
     }
   ]
 }
